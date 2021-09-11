@@ -31,7 +31,7 @@ Hey there, I'm Jacob Brewer, a passionate self-taught full stack web developer a
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/1200px-ISO_C++_Logo.svg.png?raw=true"></code>
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/mysql.png?raw=true"></code>
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/javascript.png?raw=true"></code>
-<code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/feature/patch2/assets/gitextensionslogo.svg?raw=true">
+<code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/feature/patch2/assets/gitextensionslogo.svg?raw=true"></code>
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/git.png?raw=true"></code>
 
 📊 **This week i spent my time on:**
