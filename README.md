@@ -20,7 +20,7 @@ Hey there, I'm Jacob Brewer, a passionate self-taught full stack web developer a
 
   <img align="right" alt="GIF" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/code.gif?raw=true" width="500" height="320" />
   
-- 💼 Any freelance work? do reach, [email](mailto:Jacob@client-computers.co.uk) :)
+- 💼 Any freelance work? do reach, [email](mailto:Jacob@client-computers.com) :)
 - 💬 Ask me about anything, i am happy to help;
 
 **languages and tools:**  
