@@ -31,7 +31,6 @@ Hey there, I'm Jacob Brewer, a passionate self-taught full stack web developer a
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/java.svg?raw=true"></code>
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/csharp-e7b8fcd4ce.png?raw=true"></code>
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/1200px-ISO_C++_Logo.svg.png?raw=true"></code>
-<br />
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/MySQL.svg"></code>
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/SQLite.svg"></code>
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/javascript.png?raw=true"></code>
