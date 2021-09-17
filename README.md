@@ -18,7 +18,7 @@
 
 Hey there, I'm Jacob Brewer, a passionate self-taught full stack web developer and a freelance software engineer from the UK. My passion for software lies with making things possible which you would never have dreamed of. I take great care in the experience, architecture, and code quality of the things I develop. Everything is developed in a professional manor and with the correct version control protocol taken into consideration.
 
-  <img align="right" alt="GIF" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/code.gif?raw=true" width="500" height="320" />
+  <img align="right" width ="50%" alt="GIF" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/code.gif?raw=true" width="500" height="320" />
   
 - 💼 Any freelance work? do reach, [email](mailto:Jacob@client-computers.com) :)
 - 💬 Ask me about anything, i am happy to help;
