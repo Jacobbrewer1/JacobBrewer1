@@ -40,7 +40,7 @@ Hey there, I'm Jacob Brewer, a passionate self-taught full stack web developer a
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/github.svg?raw=true"></code>
 
 📊 **My Github is made up of:**
-<code><img width="37%" src="https://github.com/JacobBrewer1/github-stats/blob/master/generated/languages.svg"></code>
+<code><img width="40%" src="https://github.com/JacobBrewer1/github-stats/blob/master/generated/languages.svg"></code>
 
 <P align="center"> 📈 My Public GitHub Stats </p>
 
