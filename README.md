@@ -45,18 +45,3 @@ Hey there, I'm Jacob Brewer, a passionate self-taught full stack web developer a
 <P align="center"> 📈 My Public GitHub Stats </p>
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=JacobBrewer1&show_icons=true&theme=gotham" alt="JacobBrewer1" />
-
-
-<!-- - 👋 Hi, I’m @JacobBrewer1
-- 👀 I specialise in web app and software development. I have worked within the retail sector along with many different industries for development.
-- I am always looking to grow my knowledge and take on a challenge. I am willing to help people along the way with their projects!
-
-<!-- - 👀 I’m interested in software development and anything to do with computers really
-- 🌱 I’m currently learning golang and Java
-- 💞️ I’m looking to collaborate on anything
-- 📫 Contact me via github or by commenting on this file -->
-
-<!---
-JacobBrewer1/JacobBrewer1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
