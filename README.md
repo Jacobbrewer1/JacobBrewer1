@@ -39,16 +39,8 @@ Hey there, I'm Jacob Brewer, a passionate self-taught full stack web developer a
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/git.svg?raw=true"></code>
 <code><img height="20" src="https://github.com/JacobBrewer1/JacobBrewer1/blob/Master/assets/github.svg?raw=true"></code>
 
-📊 **This week i spent my time on:**
-<!--START_SECTION:waka-->
-```text
-golang           █████████░░░░░░░░░░░░░░░░   34.71 %
-Java             ██████████░░░░░░░░░░░░░░░   37.35 %
-JavaScript       ████░░░░░░░░░░░░░░░░░░░░░   11.94 % 
-c#               ███░░░░░░░░░░░░░░░░░░░░░░   10.11 %
-c++              █░░░░░░░░░░░░░░░░░░░░░░░░   05.89 %
-```
-<!--END_SECTION:waka-->
+📊 **My Github is made up of:**
+<code><img src="https://github.com/JacobBrewer1/github-stats/blob/master/generated/languages.svg"></code>
 
 <P align="center"> 📈 My Public GitHub Stats </p>
 
