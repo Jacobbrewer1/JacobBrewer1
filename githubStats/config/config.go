@@ -19,7 +19,7 @@ type overrideStruct struct {
 }
 
 func ReadConfig() error {
-	if exists := findFile("./config/override.json"); exists {
+	if exists := FindFile("./config/override.json"); exists {
 		log.Println("Override detected - Reading file")
 
 		file, err := ioutil.ReadFile("./config/override.json")
@@ -42,7 +42,7 @@ func ReadConfig() error {
 	return nil
 }
 
-func findFile(path string) bool {
+func FindFile(path string) bool {
 	abs, err := filepath.Abs(path)
 	if err != nil {
 		return false
