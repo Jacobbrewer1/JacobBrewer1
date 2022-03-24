@@ -1,7 +1,7 @@
 package api
 
 import (
-	"githubStats/config"
+	"github.com/jacobbrewer1/githubStats/config"
 	"log"
 	"testing"
 )

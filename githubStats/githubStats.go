@@ -1,7 +1,7 @@
 package main
 
 import (
-	"githubStats/config"
+	"github.com/jacobbrewer1/githubStats/config"
 	"log"
 )
 

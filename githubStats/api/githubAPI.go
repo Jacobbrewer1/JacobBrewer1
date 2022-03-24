@@ -3,7 +3,7 @@ package api
 import (
 	"encoding/json"
 	"fmt"
-	"githubStats/config"
+	"github.com/jacobbrewer1/githubStats/config"
 	"io/ioutil"
 	"net/http"
 )

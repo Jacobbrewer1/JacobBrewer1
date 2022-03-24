@@ -3,11 +3,13 @@ package main
 import (
 	"encoding/json"
 	"errors"
-	"githubStats/api"
-	"githubStats/config"
+	"fmt"
+	"github.com/jacobbrewer1/githubStats/api"
+	"github.com/jacobbrewer1/githubStats/config"
 	"io/ioutil"
 	"log"
 	"sort"
+	"strconv"
 	"strings"
 )
 
@@ -61,22 +63,32 @@ func createLanguages(repos []api.Repository) error {
 	var progress string
 	var langList string
 	delay := 150
+	userSize := 0
+	for _, r := range repos {
+		userSize += *r.Size
+	}
+
+	var percent float64
 	for i, r := range repos {
+		if r.Language == nil {
+			continue
+		}
+		percent = (float64(*r.Size) / float64(userSize)) * 100
 		colour := colours[*r.Language]
 		if colour == "" {
 			colour = "#000000"
 		}
-		progress += "f'<span style=\"background-color: {color};'" +
-			"f'width: {data.get(\"prop\", 0):0.3f}%;\" '" +
-			"f'class=\"progress-item\"></span>'\"\""
-		langList += "f\"\"\"" +
-			"<li style=\"animation-delay: " + string(i*delay) + "ms;\">" +
-			"<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"octicon\" style=\"fill:{color};\"" +
-			"viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\"><path" +
+		progress += "<span style=\"background-color: " + colour +
+			";width: " + fmt.Sprintf("%f", percent) + "%\" " +
+			"class=\"progress-item\"></span>"
+		langList += "<li style=\"animation-delay: " + strconv.Itoa((i+1)*delay) + "ms;\">" +
+			"<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"octicon\" style=\"fill:" + colour +
+			" viewBox=0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\"><path " +
 			"fill-rule=\"evenodd\" d=\"M8 4a4 4 0 100 8 4 4 0 000-8z\"></path></svg>" +
-			"<span class=\"lang\">{lang}</span>" +
-			"<span class=\"percent\">{data.get(\"prop\", 0):0.2f}%</span>" +
-			"</li>"
+			"<span class=\"lang\">" + *r.Language + "</span>" +
+			"<span class=\"percent\">" + fmt.Sprintf("%f", percent) + "%</span>" +
+			"</li> \n \n"
+		percent = 0
 	}
 
 	if strings.Count(file, "{{ progress }}") > 1 {
@@ -86,6 +98,6 @@ func createLanguages(repos []api.Repository) error {
 	if strings.Count(file, "{{ lang_list }}") > 1 {
 		return errors.New("more than 1 {{ lang_list }} in template")
 	}
-	file = strings.ReplaceAll(file, "{{ lang_list }}", progress)
+	file = strings.ReplaceAll(file, "{{ lang_list }}", langList)
 	return nil
 }
