@@ -83,7 +83,7 @@ func createLanguages(repos []api.Repository) error {
 			"class=\"progress-item\"></span>"
 		langList += "<li style=\"animation-delay: " + strconv.Itoa((i+1)*delay) + "ms;\">" +
 			"<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"octicon\" style=\"fill:" + colour +
-			" viewBox=0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\"><path " +
+			";\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\"><path " +
 			"fill-rule=\"evenodd\" d=\"M8 4a4 4 0 100 8 4 4 0 000-8z\"></path></svg>" +
 			"<span class=\"lang\">" + *r.Language + "</span>" +
 			"<span class=\"percent\">" + fmt.Sprintf("%f", percent) + "%</span>" +
